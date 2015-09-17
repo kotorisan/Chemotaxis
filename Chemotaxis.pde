@@ -1,13 +1,39 @@
- //declare bacteria variables here   
- void setup()   
+Sao [] Sinon;
+/*go google sword art online if you don't know
+what sao is you piece of trash*/
+
+void setup()   
  {     
- 	//initialize bacteria variables here   
+ 	size (500,500)
+ 	Sao = new Sinon[8];
  }   
- void draw()   
+
+void draw()   
  {    
- 	//move and show the bacteria   
- }  
- class Bacteria    
+ 	for(int s=0; s<Sinon.length; s++)
+ 	{
+ 		Sinon[s].move();
+ 		Sinon[s].show();
+ 	}
+ }
+
+class Sao    
  {     
- 	//lots of java!   
+ 	int Asuna, Yuuki; //rip yuuki #aids
+ 	Sao()
+ 	{
+ 		Asuna = //someting
+ 		Yuuki = // something
+ 		//add more if necessary
+ 	}   
  }    
+
+ void move()
+ {
+ 	//put some shit in here please
+ }
+
+ void show()
+ {
+ 	// put stuff like fill and cllipse
+ }

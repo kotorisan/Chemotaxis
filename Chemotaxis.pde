@@ -14,7 +14,7 @@ SwordArtOnline [] Sinon;
  void draw()   
  {    
    background(0);
-   for (int i = 0; i < b.length; i++)
+   for (int i = 0; i < Sinon.length; i++)
    {
      Sinon[i].move();
      Sinon[i].show();
